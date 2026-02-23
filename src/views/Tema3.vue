@@ -9,7 +9,7 @@
 
     .row.align-items-center.m-0.mb-5
       .col-xl.box___style_2(data-aos="zoom-in")
-        p.mb-0 La evaluación de los #[b indicadores socioeconómicos del IPPTA] constituye un punto de partida fundamental para #[b fortalecer la vida familiar y comunitaria] en cada predio. Esta herramienta permite identificar #[b qué aspectos organizativos funcionan adecuadamente], cuáles requieren ajustes, y qué oportunidades existen para #[b consolidar la autonomía económica y la equidad] en el marco de la transición agroecológica.
+        p.mb-0 La evaluación de los #[b indicadores socioeconómicos del IPPTA] constituye un punto de partida fundamental para #[b fortalecer la vida familiar y comunitaria] en cada predio. Esta herramienta permite identificar #[b qué aspectos organizativos funcionan adecuadamente], cuáles requieren ajustes y qué oportunidades existen para #[b consolidar la autonomía económica y la equidad] en el marco de la transición agroecológica.
       .col-xl-auto(data-aos="fade-left")
         figure.d-none.d-xl-block
           img(src="@/assets/curso/temas/img65.png", alt="" ).m-auto
@@ -183,7 +183,7 @@
                   li.mb-0
                     span.fa-li
                       i.fas.fa-check-circle
-                    | Dónde existen oportunidades para #[b fortalecer la autonomía y la cohesión social].
+                    | Donde existen oportunidades para #[b fortalecer la autonomía y la cohesión social].
 
             .row.align-items-center.m-0.box___style_4(data-aos="zoom-in")
               .col-xl
@@ -209,7 +209,7 @@
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/temas/img83.jpg', alt='').m-auto
 
-        p.mb-0 Esta revisión funciona como un #[b diagnóstico general del sistema socioeconómico], que ayuda a distinguir qué aspectos requieren intervención, cuáles pueden potenciarse, y cómo avanzar hacia una organización coherente con los principios de #[b equidad, solidaridad y soberanía alimentaria]. A partir de esta lectura crítica del territorio, es posible #[b proponer prácticas contextualizadas], basadas en el conocimiento local, la cultura comunitaria y la experiencia viva de quienes habitan y transforman el espacio rural.
+        p.mb-0 Esta revisión funciona como un #[b diagnóstico general del sistema socioeconómico], que ayuda a distinguir qué aspectos requieren intervención, cuáles pueden potenciarse y cómo avanzar hacia una organización coherente con los principios de #[b equidad, solidaridad y soberanía alimentaria]. A partir de esta lectura crítica del territorio, es posible #[b proponer prácticas contextualizadas], basadas en el conocimiento local, la cultura comunitaria y la experiencia viva de quienes habitan y transforman el espacio rural.
 
     <!-- BLOQUE 3 -->
     Separador

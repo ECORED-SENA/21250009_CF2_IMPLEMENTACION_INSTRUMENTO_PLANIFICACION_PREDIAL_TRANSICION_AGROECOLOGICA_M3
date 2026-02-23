@@ -123,7 +123,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/img38.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El #[b empoderamiento de las mujeres y la participación activa de los jóvenes] son elementos clave para consolidar ese núcleo familiar. Las mujeres, históricamente asociadas al cuidado y la gestión de la alimentación, aportan conocimientos esenciales sobre biodiversidad, #[b semillas y nutrición]. Su involucramiento en la toma de decisiones económicas y productivas fortalece la equidad y garantiza una transición agroecológica #[b inclusiva y sostenible].
+        p.mb-0 El #[b empoderamiento de las mujeres y la participación activa de los jóvenes] son elementos clave para consolidar ese núcleo familiar. Las mujeres, históricamente asociadas al cuidado y la gestión de la alimentación, aportan conocimientos esenciales sobre  #[b biodiversidad, semillas y nutrición]. Su involucramiento en la toma de decisiones económicas y productivas fortalece la equidad y garantiza una transición agroecológica #[b inclusiva y sostenible].
     
     p.mb-5 Por su parte, los jóvenes representan la continuidad del proceso agroecológico. Su participación aporta #[b innovación, energía] y nuevas formas de relacionarse con la #[b tecnología y el territorio], asegurando la permanencia del sistema en el tiempo.
 

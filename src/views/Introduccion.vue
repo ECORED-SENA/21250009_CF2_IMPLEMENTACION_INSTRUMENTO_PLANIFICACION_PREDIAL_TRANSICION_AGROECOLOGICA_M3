@@ -11,7 +11,7 @@
     .fondo___color_1
       .px-5
     
-        p.mb-5 El componente formativo Valoración y fomento de la dimensión social,  tiene como propósito brindar a los aprendices herramientas para analizar, comprender y fortalecer la dimensión social y económica de los sistemas prediales como fundamento para su transición. Se abordan conceptos y técnicas de valoración de indicadores socioeconómicos, integrando metodologías participativas, registros familiares y comunitarios, y análisis de dinámicas organizativas y de mercado.
+        p.mb-5 El componente formativo Valoración y fomento de la dimensión social tiene como propósito brindar a los aprendices herramientas para analizar, comprender y fortalecer la dimensión social y económica de los sistemas prediales como fundamento para su transición. Se abordan conceptos y técnicas de valoración de indicadores socioeconómicos, integrando metodologías participativas, registros familiares y comunitarios, y análisis de dinámicas organizativas y de mercado.
 
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
           .bloque-texto-g__img(

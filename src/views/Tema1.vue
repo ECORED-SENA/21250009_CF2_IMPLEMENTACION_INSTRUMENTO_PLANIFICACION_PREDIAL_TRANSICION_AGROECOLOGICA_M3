@@ -52,19 +52,19 @@
                   li.mb-2
                     span.fa-li
                       i.fas.fa-check-circle
-                    | #[b Cuantitativos]: Expresan valores numéricos (ej. número de especies, % de insumos producidos).
+                    | #[b Cuantitativos]: expresan valores numéricos (ej. número de especies, % de insumos producidos).
                   li.mb-2
                     span.fa-li
                       i.fas.fa-check-circle
-                    | #[b Cualitativos]: Describen condiciones o prácticas (ej. tipo de manejo del suelo).
+                    | #[b Cualitativos]: describen condiciones o prácticas (ej. tipo de manejo del suelo).
                   li.mb-2
                     span.fa-li
                       i.fas.fa-check-circle
-                    | #[b Combinados]: Integran aspectos técnicos, sociales y ecológicos.
+                    | #[b Combinados]: integran aspectos técnicos, sociales y ecológicos.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-check-circle
-                    | #[b Participativos]: Construidos y valorados colectivamente por actores del territorio.
+                    | #[b Participativos]: construidos y valorados colectivamente por actores del territorio.
               .col-xl-6
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/temas/img6.png', alt='' style="max-width: 500px").m-auto
@@ -114,7 +114,7 @@
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/temas/img8.jpg', alt='').m-auto
               .col-xl
-                p.mb-0 Estas técnicas facilitan la observación de relaciones de género y generación, la detección de limitaciones en ingresos o acceso a mercados, y la toma de decisiones informadas que refuercen la #[b equidad], la #[b cohesión social] y la #[b planificación colectiva]. En el marco del IPPTA, su aplicación contribuye a desarrollar capacidades para diseñar estrategias socioeconómicas orientadas a la mejora continua, la #[b comunalidad] y la #[b autonomía campesina].
+                p.mb-0 Estas técnicas facilitan la observación de relaciones de género y generación, la detección de limitaciones en ingresos o acceso a mercados y la toma de decisiones informadas que refuercen la #[b equidad], la #[b cohesión social] y la #[b planificación colectiva]. En el marco del IPPTA, su aplicación contribuye a desarrollar capacidades para diseñar estrategias socioeconómicas orientadas a la mejora continua, la #[b comunalidad] y la #[b autonomía campesina].
 
         <!-- BLOQUE 3 -->
         Separador
@@ -191,7 +191,7 @@
     
     .row.align-items-center.m-0.mb-5
       .col-xl.box___style_2.box___fit_2_1(data-aos="zoom-in")
-        p.mb-0 Este apartado explica cómo el IPPTA convierte la información social y económica en una calificación que orienta decisiones colectivas.En el IPPTA, la mecánica de valoración de los indicadores socioeconómicos transforma la información recogida a partir del diálogo con las familias y comunidades en un índice numérico.
+        p.mb-0 Este apartado explica cómo el IPPTA convierte la información social y económica en una calificación que orienta decisiones colectivas. En el IPPTA, la mecánica de valoración de los indicadores socioeconómicos transforma la información recogida a partir del diálogo con las familias y comunidades en un índice numérico.
       .col-xl-auto(data-aos="fade-left")
         figure.d-none.d-xl-block
           img(src="@/assets/curso/temas/img19.png", alt="" ).m-auto
@@ -508,7 +508,7 @@
         figure
           img(src="@/assets/curso/temas/img55.svg" style="max-width: 60px").m-auto
       .col
-        h3 Ejemplo práctico: finca renacer 
+        h3 Ejemplo práctico: Finca Renacer 
     
     .fondo___color_2
       .px-5
