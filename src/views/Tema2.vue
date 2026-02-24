@@ -419,7 +419,7 @@
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Del campo a la comunidad: canales de comercialización agroecológica"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/CF2_podcast_IIMPLEMENTACION_INSTRUMENTO_PLANIFICACION_PREDIAL_TRANSICION_AGROECOLOGICA_ESTACION_SOCIOECONOMICA_MODULO_3.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-xl-auto
@@ -466,8 +466,8 @@
     <!-- VIDEOS -->
     figure(data-aos="zoom-in").mb-5
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") #[b Video]: TEXTO
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/-2B1ssTdFH0" title="Red COMPARTE. Circuitos cortos de comercialización y consumo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") #[b Video]: Red COMPARTE. Circuitos cortos de comercialización y consumo.
 
     p.mb-0 En síntesis, los mercados son más que espacios de intercambio económico: son escenarios de encuentro, reconocimiento y construcción de soberanía alimentaria. Su consolidación asegura que la producción agroecológica se traduzca en bienestar familiar, cohesión comunitaria y resiliencia territorial.
 
