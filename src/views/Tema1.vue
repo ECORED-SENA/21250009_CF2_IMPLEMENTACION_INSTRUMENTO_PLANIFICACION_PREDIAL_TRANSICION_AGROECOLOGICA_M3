@@ -38,15 +38,15 @@
         .ajuste-slider(data-aos="zoom-in")
           SlyderA(tipo="b")
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Indicador productivo
                 p.mb-0 Herramienta que permite observar, medir y valorar aspectos del sistema productivo.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img5.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Características de los indicadores IPPTA
                 ul.fa-ul.estilo___ul.mb-0
                   li.mb-2
@@ -65,12 +65,12 @@
                     span.fa-li
                       i.fas.fa-check-circle
                     | #[b Participativos]: construidos y valorados colectivamente por actores del territorio.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img6.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Finalidad de los indicadores socioeconómicos
                 ul.fa-ul.estilo___ul.mb-0
                   li.mb-2
@@ -94,7 +94,7 @@
                       i.fas.fa-check-circle
                     | Evaluar impactos sociales, organizativos y económicos de las prácticas agroecológicas implementadas.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure.order-1
                   img(src='@/assets/curso/temas/img7.png', alt='' style="max-width: 500px").m-auto
 
     <!-- BLOQUE 2 -->
@@ -109,12 +109,13 @@
 
         .row.justify-content-center.mb-0
           .col-xl-10
-            .row.align-items-center.m-0.box___style_3(data-aos="zoom-in")
-              .col-xl-auto
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img8.jpg', alt='').m-auto
-              .col-xl
-                p.mb-0 Estas técnicas facilitan la observación de relaciones de género y generación, la detección de limitaciones en ingresos o acceso a mercados y la toma de decisiones informadas que refuercen la #[b equidad], la #[b cohesión social] y la #[b planificación colectiva]. En el marco del IPPTA, su aplicación contribuye a desarrollar capacidades para diseñar estrategias socioeconómicas orientadas a la mejora continua, la #[b comunalidad] y la #[b autonomía campesina].
+            .box___style_3(data-aos="zoom-in")
+              .row.align-items-center
+                .col-xl-auto
+                  figure.order-1
+                    img(src='@/assets/curso/temas/img8.jpg', alt='').m-auto
+                .col-xl.order-2
+                  p.mb-0 Estas técnicas facilitan la observación de relaciones de género y generación, la detección de limitaciones en ingresos o acceso a mercados, y la toma de decisiones informadas que refuercen la #[b equidad], la #[b cohesión social] y la #[b planificación colectiva]. En el marco del IPPTA, su aplicación contribuye a desarrollar capacidades para diseñar estrategias socioeconómicas orientadas a la mejora continua, la #[b comunalidad] y la #[b autonomía campesina].
 
         <!-- BLOQUE 3 -->
         Separador
@@ -247,43 +248,45 @@
 
         .row.justify-content-center.mb-5
           .col-xl-9
-            .row.align-items-center.m-0.box___style_3(data-aos="zoom-in")
-              .col-xl-auto
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img21.jpg', alt='').m-auto
-              .col-xl
-                ul.fa-ul.estilo___ul.mb-0
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | La participación comunitaria.
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | La equidad de género.
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | La generación y control de ingresos.
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | La autosuficiencia alimentaria.
-                  li.mb-0
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | La organización para la comercialización.
+            .box___style_3(data-aos="zoom-in")
+              .row.align-items-center
+                .col-xl-auto.order-1
+                  figure
+                    img(src='@/assets/curso/temas/img21.jpg', alt='').m-auto
+                .col-xl.order-2
+                  ul.fa-ul.estilo___ul.mb-0
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | La participación comunitaria.
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | La equidad de género.
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | La generación y control de ingresos.
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | La autosuficiencia alimentaria.
+                    li.mb-0
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | La organización para la comercialización.
 
         p.mb-5 Estos indicadores facilitan la construcción de un diagnóstico claro y participativo de la situación social y económica. Además, permiten establecer una línea base para tomar decisiones que fortalezcan #[b la autonomía, la cohesión y la sostenibilidad] de las comunidades, partiendo de su propia realidad territorial.
 
         .row.justify-content-center.mb-5
           .col-xl-10
-            .row.align-items-center.m-0.box___style_4(data-aos="zoom-in")
-              .col-xl
-                p.mb-0 Cuando estos indicadores se aplican mediante #[b técnicas participativas], se genera un espacio de diálogo entre familias, organizaciones y equipos técnicos. Esto posibilita reconocer avances, discutir prácticas actuales y definir en conjunto acciones de mejora. En este proceso, #[b los saberes locales se articulan con criterios técnicos], lo que da lugar a estrategias socioeconómicas #[b contextualizadas, pertinentes y transformadoras].
-              .col-xl-auto
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img22.jpg', alt='').m-auto
+            .box___style_4(data-aos="zoom-in")
+              .row.align-items-center
+                .col-xl.order-2.order-lg-1
+                  p.mb-0 Cuando estos indicadores se aplican mediante #[b técnicas participativas], se genera un espacio de diálogo entre familias, organizaciones y equipos técnicos. Esto posibilita reconocer avances, discutir prácticas actuales y definir en conjunto acciones de mejora. En este proceso, #[b los saberes locales se articulan con criterios técnicos], lo que da lugar a estrategias socioeconómicas #[b contextualizadas, pertinentes y transformadoras].
+                .col-xl-auto.order-1.order-lg-2
+                  figure
+                    img(src='@/assets/curso/temas/img22.jpg', alt='').m-auto
     
     p.mb-5 A continuación, se presenta el desglose de cada indicador socioeconómico, su descripción y su relevancia dentro del proceso de transición agroecológica.
 
@@ -293,7 +296,7 @@
         .ajuste-slider(data-aos="zoom-in")
           SlyderA(tipo="b")
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Generación de ingresos e índices de autoempleo
                 p.mb-3 Valora el porcentaje de los gastos de la finca (mano de obra, insumos, administración y comercialización) cubiertos con los ingresos generados. Este indicador refuerza la autonomía económica familiar y la sostenibilidad del sistema agroecológico. 
                 h4 Medición: 
@@ -318,12 +321,12 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Más del 80%.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img23.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Organización para la comercialización de los productos
                 p.mb-3 Analiza la participación del productor en procesos organizativos para la venta de productos agroecológicos. Fortalece la autonomía económica, reduce la intermediación y consolida redes comunitarias de comercialización. 
                 h4 Medición: 
@@ -348,12 +351,12 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Participa y vende directamente sin intermediarios.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img24.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Autosuficiencia alimentaria familiar
                 p.mb-3 Evalúa la capacidad de la familia para producir alimentos que cubran de forma balanceada sus necesidades nutricionales, respetando prácticas culturales alimentarias. Fortalece la soberanía alimentaria, la autonomía familiar y la resiliencia ante crisis externas. 
                 h4 Medición: 
@@ -378,12 +381,12 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Se produce el 70% con diversidad nutricional y pertinencia cultural.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img26.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Participación de la familia en procesos comunitarios
                 p.mb-3 Mide el nivel de involucramiento de la familia en espacios comunitarios orientados a la resolución de problemáticas colectivas. Fortalece la cohesión social, el sentido de pertenencia y la capacidad organizativa territorial. 
                 h4 Medición: 
@@ -408,12 +411,12 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Participación permanente con presencia en espacios de decisión.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img28.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Gestión del conocimiento agroecológico
                 p.mb-3 Estima la vinculación de la familia en procesos de enseñanza, aprendizaje, investigación y diálogo comunitario en torno a la agroecología. Potencia la innovación local, la apropiación de saberes y el fortalecimiento de redes de aprendizaje. 
                 h4 Medición: 
@@ -438,12 +441,12 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Enseña, investiga, comparte y es referente agroecológico.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img25.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Trabajo y uso del tiempo en la agricultura familiar
                 p.mb-3 Analiza la distribución del tiempo, especialmente de las mujeres, entre trabajo productivo, cuidado, autocuidado y descanso. Visibiliza cargas de trabajo, promueve el equilibrio y fortalece la equidad familiar. 
                 h4 Medición: 
@@ -468,12 +471,12 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Equilibrio entre cuidado, producción, autocuidado y descanso.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img27.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Control y decisión sobre el ingreso
                 p.mb-3 Evalúa quién toma decisiones sobre el uso, control y beneficio del ingreso generado en la finca. Promueve la equidad intrafamiliar, la corresponsabilidad económica y la autonomía compartida. 
                 h4 Medición: 
@@ -498,8 +501,8 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Participación activa y equitativa de todos los miembros del hogar.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img29.png', alt='' style="max-width: 500px").m-auto
 
     <!-- TITULOS TERCER NIVEL -->
@@ -566,8 +569,7 @@
                 td.ajuste-border-tabla.texto-left Las mujeres logran balance entre trabajo productivo y cuidado, pero con poco tiempo para descanso.
                 td.texto-left 3
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla.texto-left 
-                td.ajuste-border-tabla.texto-left #[b PROMEDIO]
+                td(colspan="2").ajuste-border-tabla.texto-left #[b PROMEDIO]
                 td.texto-left 3.3
 
     p.mb-0 #[b Condición socioeconómica del predio]: la finca se encuentra en un nivel #[b intermedio-alto], con avances claros en participación comunitaria, autosuficiencia alimentaria y gestión del conocimiento, pero con aspectos por mejorar en el control de ingresos y la organización para la comercialización. 

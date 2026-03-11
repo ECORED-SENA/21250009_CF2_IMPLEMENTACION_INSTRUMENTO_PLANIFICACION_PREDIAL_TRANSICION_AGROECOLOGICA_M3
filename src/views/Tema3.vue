@@ -108,12 +108,13 @@
 
         .row.justify-content-center.mb-5
           .col-xl-8
-            .row.align-items-center.m-0.box___style_3(data-aos="zoom-in")
-              .col-xl-auto
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img76.jpg', alt='').m-auto
-              .col-xl
-                p.mb-0 La construcción del plan requiere tanto un #[b método estructurado] como una #[b comprensión sensible] de las dinámicas sociales: reconocer roles, escuchar voces diversas y actuar con intención transformadora.
+            .box___style_3(data-aos="zoom-in")
+              .row.align-items-center
+                .col-xl-auto.order-1
+                  figure
+                    img(src='@/assets/curso/temas/img76.jpg', alt='').m-auto
+                .col-xl.order-2
+                  p.mb-0 La construcción del plan requiere tanto un #[b método estructurado] como una #[b comprensión sensible] de las dinámicas sociales: reconocer roles, escuchar voces diversas y actuar con intención transformadora.
 
     p.mb-5 Los principales pasos para la elaboración del plan de acción son:
 
@@ -166,48 +167,50 @@
 
         .row.justify-content-center.mb-5
           .col-xl-8
-            .row.align-items-center.m-0.box___style_3.mb-5(data-aos="zoom-in")
-              .col-xl-auto
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img82.jpg', alt='').m-auto
-              .col-xl
-                ul.fa-ul.estilo___ul.mb-0
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | Cómo se organizan las familias.
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | Qué prácticas generan tensiones o limitaciones.
-                  li.mb-0
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | Donde existen oportunidades para #[b fortalecer la autonomía y la cohesión social].
+            .box___style_3.mb-5(data-aos="zoom-in")
+              .row.align-items-center(data-aos="zoom-in")
+                .col-xl-auto
+                  figure
+                    img(src='@/assets/curso/temas/img82.jpg', alt='').m-auto
+                .col-xl
+                  ul.fa-ul.estilo___ul.mb-0
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | Cómo se organizan las familias.
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | Qué prácticas generan tensiones o limitaciones.
+                    li.mb-0
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | Donde existen oportunidades para #[b fortalecer la autonomía y la cohesión social].
 
-            .row.align-items-center.m-0.box___style_4(data-aos="zoom-in")
-              .col-xl
-                p.mb-3 Este análisis permite identificar situaciones como:
-                ul.fa-ul.estilo___ul.mb-0
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | Concentración del control de ingresos en pocas personas.
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | Baja participación comunitaria.
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | Sobrecarga de trabajo en mujeres o jóvenes.
-                  li.mb-0
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | Escasa articulación con cooperativas u organizaciones del territorio.
-              .col-xl-auto
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img83.jpg', alt='').m-auto
+            .box___style_4(data-aos="zoom-in")
+              .row.align-items-center
+                .col-xl.order-2.order-lg-1
+                  p.mb-3.ajuste___movil Este análisis permite identificar situaciones como:
+                  ul.fa-ul.estilo___ul.mb-0
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | Concentración del control de ingresos en pocas personas.
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | Baja participación comunitaria.
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | Sobrecarga de trabajo en mujeres o jóvenes.
+                    li.mb-0
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | Escasa articulación con cooperativas u organizaciones del territorio.
+                .col-xl-auto.order-1.order-lg-2
+                  figure
+                    img(src='@/assets/curso/temas/img83.jpg', alt='').m-auto
 
         p.mb-0 Esta revisión funciona como un #[b diagnóstico general del sistema socioeconómico], que ayuda a distinguir qué aspectos requieren intervención, cuáles pueden potenciarse y cómo avanzar hacia una organización coherente con los principios de #[b equidad, solidaridad y soberanía alimentaria]. A partir de esta lectura crítica del territorio, es posible #[b proponer prácticas contextualizadas], basadas en el conocimiento local, la cultura comunitaria y la experiencia viva de quienes habitan y transforman el espacio rural.
 
@@ -253,29 +256,30 @@
 
     .row.justify-content-center.mb-5
       .col-xl-10
-        .row.align-items-center.m-0.box___style_3(data-aos="zoom-in")
-          .col-xl-auto
-            figure.d-none.d-xl-block
-              img(src='@/assets/curso/temas/img88.svg', alt='').m-auto
-          .col-xl
-            p.mb-3 Estos objetivos actúan como #[b referentes estratégicos] que permiten:
-            ul.fa-ul.estilo___ul.mb-0
-              li.mb-1
-                span.fa-li
-                  i.fas.fa-check-circle
-                | Diseñar un plan socioeconómico coherente.
-              li.mb-1
-                span.fa-li
-                  i.fas.fa-check-circle
-                | Organizar acciones colectivas.
-              li.mb-1
-                span.fa-li
-                  i.fas.fa-check-circle
-                | Evaluar avances.
-              li.mb-0
-                span.fa-li
-                  i.fas.fa-check-circle
-                | Ajustar estrategias según la cultura y organización del territorio.
+        .box___style_3(data-aos="zoom-in")
+          .row.align-items-center
+            .col-xl-auto
+              figure
+                img(src='@/assets/curso/temas/img88.svg', alt='').m-auto
+            .col-xl
+              p.mb-3.ajuste___movil Estos objetivos actúan como #[b referentes estratégicos] que permiten:
+              ul.fa-ul.estilo___ul.mb-0
+                li.mb-1
+                  span.fa-li
+                    i.fas.fa-check-circle
+                  | Diseñar un plan socioeconómico coherente.
+                li.mb-1
+                  span.fa-li
+                    i.fas.fa-check-circle
+                  | Organizar acciones colectivas.
+                li.mb-1
+                  span.fa-li
+                    i.fas.fa-check-circle
+                  | Evaluar avances.
+                li.mb-0
+                  span.fa-li
+                    i.fas.fa-check-circle
+                  | Ajustar estrategias según la cultura y organización del territorio.
 
     p.mb-5 A continuación, se presentan ejemplos de necesidades comunes y sus correspondientes objetivos transformadores:
 
@@ -369,34 +373,34 @@
         .col-xl
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
             .row.align-items-center(titulo="Pertinencia cultural").ajuste-cajaAcordion
-              .col-xl
+              .col-xl.order-2.espacio___movil_3
                 p.mb-3 Que las prácticas respeten la identidad comunitaria y fortalezcan la memoria biocultural.
-              .col-xl-auto
-                figure.d-none.d-xl-block
+              .col-xl-auto.order-1
+                figure
                   img(src='@/assets/curso/temas/img100.svg', alt='' style="max-width: 94px").m-auto 
             .row.align-items-center(titulo="Viabilidad económica").ajuste-cajaAcordion
-              .col-xl
+              .col-xl.order-2.espacio___movil_3
                 p.mb-3 Que sean sostenibles con los recursos disponibles y refuercen la autonomía financiera.
-              .col-xl-auto
-                figure.d-none.d-xl-block
+              .col-xl-auto.order-1
+                figure
                   img(src='@/assets/curso/temas/img101.svg', alt='' style="max-width: 94px").m-auto 
             .row.align-items-center(titulo="Equidad social").ajuste-cajaAcordion
-              .col-xl
+              .col-xl.order-2.espacio___movil_3
                 p.mb-3 Que promuevan la participación activa de mujeres, jóvenes y mayores en la toma de decisiones.
-              .col-xl-auto
-                figure.d-none.d-xl-block
+              .col-xl-auto.order-1
+                figure
                   img(src='@/assets/curso/temas/img102.svg', alt='' style="max-width: 94px").m-auto 
             .row.align-items-center(titulo="Solidaridad comunitaria").ajuste-cajaAcordion
-              .col-xl
+              .col-xl.order-2.espacio___movil_3
                 p.mb-3 Que fomenten la cooperación, la ayuda mutua y la organización colectiva.
-              .col-xl-auto
-                figure.d-none.d-xl-block
+              .col-xl-auto.order-1
+                figure
                   img(src='@/assets/curso/temas/img103.svg', alt='' style="max-width: 94px").m-auto 
             .row.align-items-center(titulo="Articulación territorial").ajuste-cajaAcordion
-              .col-xl
+              .col-xl.order-2.espacio___movil_3
                 p.mb-3 Que se conecten con redes, cooperativas y plataformas para ampliar su alcance e impacto.
-              .col-xl-auto
-                figure.d-none.d-xl-block
+              .col-xl-auto.order-1
+                figure
                   img(src='@/assets/curso/temas/img104.svg', alt='' style="max-width: 94px").m-auto 
 
     <!-- TITULOS TERCER NIVEL -->
@@ -415,35 +419,35 @@
         .ajuste-slider(data-aos="zoom-in")
           SlyderA(tipo="b")
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Participación comunitaria
                 p.mb-0 Desarrollo de mingas, trueques y actividades agroecológicas compartidas, junto con la definición de acuerdos de corresponsabilidad familiar para el manejo de ingresos y la distribución de roles dentro del hogar y la comunidad.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img105.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Economía solidaria
                 p.mb-0 Creación de fondos solidarios comunitarios orientados a atender emergencias y financiar proyectos colectivos, así como la organización de cooperativas agropecuarias para compras conjuntas, acceso a créditos solidarios y procesos de comercialización colectiva.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img106.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Comercialización alternativa
                 p.mb-0 Implementación de ferias locales y canales cortos de comercialización que fortalecen la relación directa entre productor y consumidor, reduciendo la intermediación y promoviendo circuitos económicos locales.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img107.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Formación y liderazgo
                 p.mb-0 Capacitación en gestión económica y liderazgo comunitario, con énfasis en mujeres y jóvenes, y participación activa en plataformas territoriales y organizaciones campesinas para la incidencia social y política.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img108.png', alt='' style="max-width: 500px").m-auto
 
     p.mb-0 La selección adecuada de estas medidas garantiza que la transición agroecológica avance de forma #[b contextualizada, inclusiva y sostenible], generando impactos reales en la #[b autonomía económica y la cohesión social] de las comunidades rurales.

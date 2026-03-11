@@ -14,15 +14,15 @@
           .col-xl-4.col-md-9(data-aos="zoom-in")
             .style___tarjeta_rob.h-100
               .p-4
-                h4.text-center Las dinámicas culturales
+                p.text-center.mb-0 #[b Las dinámicas culturales]
           .col-xl-4.col-md-9(data-aos="zoom-in").espacio___movil_3
             .style___tarjeta_rob.h-100
               .p-4
-                h4.text-center Las formas de organización comunitaria
+                p.text-center.mb-0 #[b Las formas de organización comunitaria]
           .col-xl-4.col-md-9(data-aos="zoom-in").espacio___movil_3
             .style___tarjeta_rob.h-100
               .p-4
-                h4.text-center Las condiciones económicas de cada finca
+                p.text-center.mb-0 #[b Las condiciones económicas de cada finca]
       .col-xl-auto(data-aos="fade-left")
         figure.d-none.d-xl-block
           img(src="@/assets/curso/temas/img31.png", alt="" ).m-auto
@@ -32,21 +32,22 @@
 
         .row.justify-content-center.mb-5
           .col-xl-8
-            .row.align-items-center.m-0.box___style_3(data-aos="zoom-in")
-              .col-xl-auto
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img32.jpg', alt='').m-auto
-              .col-xl
-                p.mb-3 El propósito es doble:
-                ul.fa-ul.estilo___ul.mb-0
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | #[b Atender los puntos débiles identificados], como la concentración del control de ingresos, la baja participación en procesos de comercialización o la sobrecarga de trabajo de las mujeres.
-                  li.mb-1
-                    span.fa-li
-                      i.fas.fa-check-circle
-                    | #[b Reforzar los aspectos positivos ya presentes], como la autosuficiencia alimentaria y la gestión del conocimiento agroecológico.
+            .box___style_3(data-aos="zoom-in")
+              .row.align-items-center
+                .col-xl-auto.order-1
+                  figure
+                    img(src='@/assets/curso/temas/img32.jpg', alt='').m-auto
+                .col-xl.order-2
+                  p.mb-2.ajuste___movil El propósito es doble:
+                  ul.fa-ul.estilo___ul.mb-0
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | #[b Atender los puntos débiles identificados], como la concentración del control de ingresos, la baja participación en procesos de comercialización o la sobrecarga de trabajo de las mujeres.
+                    li.mb-1
+                      span.fa-li
+                        i.fas.fa-check-circle
+                      | #[b Reforzar los aspectos positivos ya presentes], como la autosuficiencia alimentaria y la gestión del conocimiento agroecológico.
 
         p.mb-0 Así, se busca impulsar una #[b transición agroecológica integral], en la cual la producción sostenible se articule con #[b relaciones sociales más equitativas y solidarias]. Este enfoque no es estático: las siguientes evaluaciones permitirán #[b verificar avances, visibilizar aprendizajes colectivos y ajustar las estrategias de acción], consolidando un proceso de mejora continua.
 
@@ -129,12 +130,13 @@
 
     .row.justify-content-center.mb-5
       .col-xl-8
-        .row.align-items-center.m-0.box___style_3(data-aos="zoom-in")
-          .col-xl-auto
-            figure.d-none.d-xl-block
-              img(src='@/assets/curso/temas/img39.jpg', alt='').m-auto
-          .col-xl
-            p.mb-0 Uno de los principios fundamentales es la #[b equidad en los roles familiares]. Distribuir de manera justa las responsabilidades productivas, domésticas y comunitarias evita sobrecargas y exclusiones. Este equilibrio promueve el #[b bienestar familiar, la corresponsabilidad] y una mayor #[b cohesión social], condiciones esenciales para que la agroecología sea vivida como un #[b proyecto colectivo] y no como una carga individual.
+        .box___style_3(data-aos="zoom-in")
+          .row.align-items-center
+            .col-xl-auto.order-1
+              figure
+                img(src='@/assets/curso/temas/img39.jpg', alt='').m-auto
+            .col-xl.order-2
+              p.mb-0 Uno de los principios fundamentales es la #[b equidad en los roles familiares]. Distribuir de manera justa las responsabilidades productivas, domésticas y comunitarias evita sobrecargas y exclusiones. Este equilibrio promueve el #[b bienestar familiar, la corresponsabilidad] y una mayor #[b cohesión social], condiciones esenciales para que la agroecología sea vivida como un #[b proyecto colectivo] y no como una carga individual.
     
     p.mb-5 Las prácticas orientadas a fortalecer a la familia como núcleo del sistema agroecológico integran equidad, empoderamiento y corresponsabilidad en la vida cotidiana de la finca. Se trata de acciones que consolidan tanto la sostenibilidad familiar como la cohesión del proceso agroecológico. Las prácticas para fortalecer el núcleo familiar en la agroecología son: 
 
@@ -144,43 +146,43 @@
         .ajuste-slider(data-aos="zoom-in")
           SlyderA(tipo="b")
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Empoderamiento de las mujeres
                 p.mb-0 Promover su participación en decisiones económicas y productivas; visibilizar su rol en semillas, alimentación y organización comunitaria.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img40.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Participación de los jóvenes
                 p.mb-0 Incluir a nuevas generaciones en formación agroecológica, tecnologías apropiadas y liderazgo comunitario.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img41.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Equidad en los roles familiares
                 p.mb-0 Redistribuir tareas productivas, domésticas y comunitarias para evitar sobrecargas y fomentar el autocuidado.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img43.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Corresponsabilidad económica
                 p.mb-0 Fomentar el control compartido de ingresos y la planificación financiera colectiva, fortaleciendo la autonomía familiar.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img42.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Complementariedad intergeneracional
                 p.mb-0 Crear espacios de encuentro para transmitir saberes ancestrales y articularlos con innovaciones juveniles.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img44.png', alt='' style="max-width: 500px").m-auto
 
     <!-- BLOQUE 3 -->
@@ -192,12 +194,13 @@
 
     .row.justify-content-center.mb-5
       .col-xl-10
-        .row.align-items-center.m-0.box___style_3(data-aos="zoom-in")
-          .col-xl-auto
-            figure.d-none.d-xl-block
-              img(src='@/assets/curso/temas/img45.jpg', alt='').m-auto
-          .col-xl
-            p.mb-0 La articulación colectiva cumple un papel estratégico en la consolidación de un modelo agroecológico territorial. A través de estas estructuras se generan #[b vínculos de solidaridad], se coordinan acciones frente a desafíos comunes y se construyen #[b alternativas económicas y políticas sostenibles].
+        .box___style_3(data-aos="zoom-in")
+          .row.align-items-center
+            .col-xl-auto.order-1
+              figure
+                img(src='@/assets/curso/temas/img45.jpg', alt='').m-auto
+            .col-xl.order-2
+              p.mb-0 La articulación colectiva cumple un papel estratégico en la consolidación de un modelo agroecológico territorial. A través de estas estructuras se generan #[b vínculos de solidaridad], se coordinan acciones frente a desafíos comunes y se construyen #[b alternativas económicas y políticas sostenibles].
     
     p.mb-5 A continuación, se presentan los principales tipos de organizaciones y su aporte al proceso:
 
@@ -207,35 +210,35 @@
         .ajuste-slider(data-aos="zoom-in")
           SlyderA(tipo="b")
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Redes comunitarias
                 p.mb-0 Generan confianza y solidaridad; facilitan el intercambio de semillas, saberes y prácticas agroecológicas.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img46.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Plataformas territoriales
                 p.mb-0 Integran actores diversos (productores, instituciones, organizaciones); permiten coordinar acciones e incidir en políticas públicas.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img47.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Organizaciones campesinas y agroecológicas
                 p.mb-0 Defienden la soberanía alimentaria y construyen mercados alternativos; abren canales de comercialización directa y fortalecen la representación política.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img48.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Cooperativas agropecuarias
                 p.mb-0 Promueven la economía solidaria y la autonomía; organizan compras colectivas, gestionan créditos solidarios y fomentan la participación democrática.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img49.png', alt='' style="max-width: 500px").m-auto
 
     p.mb-0 En conjunto, estos espacios constituyen el #[b tejido social de la transición agroecológica]. Son la base que conecta a las fincas con el territorio, transforma prácticas individuales en #[b movimientos colectivos] y garantiza que los avances familiares se traduzcan en #[b cambios estructurales] hacia sistemas #[b más justos, resilientes y sostenibles].
@@ -300,7 +303,7 @@
         .ajuste-slider(data-aos="zoom-in")
           SlyderA(tipo="b")
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Escuelas territoriales de agroecología
                 ul.fa-ul.estilo___ul.mb-0
                   li.mb-2
@@ -315,12 +318,12 @@
                     span.fa-li
                       i.fas.fa-check-circle
                     | Forman promotores locales y fortalecen la identidad agroecológica.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img56.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Programas técnicos y tecnológicos
                 ul.fa-ul.estilo___ul.mb-0
                   li.mb-2
@@ -335,12 +338,12 @@
                     span.fa-li
                       i.fas.fa-check-circle
                     | Preparan técnicos que acompañan procesos comunitarios y aportan innovación.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img57.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.order-2.espacio___movil_3
                 h4 Formación universitaria
                 ul.fa-ul.estilo___ul.mb-0
                   li.mb-2
@@ -355,8 +358,8 @@
                     span.fa-li
                       i.fas.fa-check-circle
                     | Generan conocimiento científico en diálogo con la práctica local y contribuyen al diseño de políticas públicas.
-              .col-xl-6
-                figure.d-none.d-xl-block
+              .col-xl-6.order-1
+                figure
                   img(src='@/assets/curso/temas/img58.png', alt='' style="max-width: 500px").m-auto
     
     p.mb-0 En conjunto, estos niveles de formación construyen una #[b pedagogía agroecológica integral], enraizada en los territorios pero con capacidad de articulación nacional e institucional, que sustenta la transición hacia sistemas alimentarios más justos, resilientes y soberanos.
@@ -386,36 +389,37 @@
         
         .row.justify-content-center.mb-5
           .col-xl-8
-            .row.align-items-center.m-0.box___style_4(data-aos="zoom-in")
-              .col-xl
-                p.mb-3 Además, estos canales permiten:
-                ol.lista-ol--cuadro
-                  li
-                    .lista-ol--cuadro__vineta
-                      span A
-                    | Reducir la dependencia de intermediarios.
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span B
-                    | Impulsar la cohesión comunitaria.
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span C
-                    | Abrir oportunidades en mercados locales e institucionales.
-              .col-xl-auto
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img61.svg', alt='').m-auto
+            .box___style_4(data-aos="zoom-in")
+              .row.align-items-center
+                .col-xl.order-2.order-lg-1
+                  p.mb-3.ajuste___movil Además, estos canales permiten:
+                  ol.lista-ol--cuadro
+                    li
+                      .lista-ol--cuadro__vineta
+                        span A
+                      | Reducir la dependencia de intermediarios.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span B
+                      | Impulsar la cohesión comunitaria.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span C
+                      | Abrir oportunidades en mercados locales e institucionales.
+                .col-xl-auto.order-1.order-lg-2
+                  figure
+                    img(src='@/assets/curso/temas/img61.svg', alt='').m-auto
 
     p.mb-5 A continuación, se presenta un pódcast que expone los principales tipos de canales de comercialización agroecológica, analizando sus características, beneficios y aportes a la construcción de sistemas alimentarios más justos y sostenibles.
 
     <!-- PODCAST -->
     .row.align-items-center.m-0.mb-5
       .col-xl
-        .row.align-items-center.box___style_5(data-aos="zoom-in")
+        .row.align-items-center.justify-content-center.box___style_5(data-aos="zoom-in")
           .col-auto
-            figure.d-none.d-xl-block(data-aos="fade-right")
+            figure(data-aos="fade-right")
               img(src="@/assets/curso/temas/img62.svg" style="max-width: 220px").m-auto
-          .col
+          .col.espacio___movil_3
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Del campo a la comunidad: canales de comercialización agroecológica"
@@ -438,28 +442,29 @@
 
     .row.justify-content-center.mb-5
       .col-xl-8
-        .row.align-items-center.m-0.box___style_3(data-aos="zoom-in")
-          .col-xl-auto
-            figure.d-none.d-xl-block
-              img(src='@/assets/curso/temas/img64.jpg', alt='').m-auto
-          .col-xl
-            ul.fa-ul.estilo___ul.mb-0
-              li.mb-1
-                span.fa-li
-                  i.fas.fa-check-circle
-                | Reconocer el #[b valor integral] del producto campesino (más allá del precio).
-              li.mb-1
-                span.fa-li
-                  i.fas.fa-check-circle
-                | Promover la #[b transparencia] en la formación de precios.
-              li.mb-1
-                span.fa-li
-                  i.fas.fa-check-circle
-                | Asegurar la #[b equidad en la distribución de beneficios].
-              li.mb-1
-                span.fa-li
-                  i.fas.fa-check-circle
-                | Construir #[b relaciones de confianza y compromiso] entre productores y consumidores.
+        .box___style_3(data-aos="zoom-in")
+          .row.align-items-center
+            .col-xl-auto.order-1
+              figure
+                img(src='@/assets/curso/temas/img64.jpg', alt='').m-auto
+            .col-xl.order-2
+              ul.fa-ul.estilo___ul.mb-0
+                li.mb-1
+                  span.fa-li
+                    i.fas.fa-check-circle
+                  | Reconocer el #[b valor integral] del producto campesino (más allá del precio).
+                li.mb-1
+                  span.fa-li
+                    i.fas.fa-check-circle
+                  | Promover la #[b transparencia] en la formación de precios.
+                li.mb-1
+                  span.fa-li
+                    i.fas.fa-check-circle
+                  | Asegurar la #[b equidad en la distribución de beneficios].
+                li.mb-1
+                  span.fa-li
+                    i.fas.fa-check-circle
+                  | Construir #[b relaciones de confianza y compromiso] entre productores y consumidores.
 
     p.mb-5 En este enfoque, la comercialización no es un fin aislado, sino una extensión coherente de los principios agroecológicos: #[b justicia social, sostenibilidad ambiental y soberanía alimentaria]. Puede conocer más  sobre los circuitos cortos de comercialización y los sistemas participativos de garantías: 
 
