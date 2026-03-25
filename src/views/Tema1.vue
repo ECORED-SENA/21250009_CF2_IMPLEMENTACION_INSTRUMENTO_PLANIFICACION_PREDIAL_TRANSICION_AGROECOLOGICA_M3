@@ -372,7 +372,7 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span 3
-                    | Se produce el 30%.
+                    | Se produce el 30% de los alimentos.
                   li 
                     .lista-ol--cuadro__vineta
                       span 4
