@@ -423,7 +423,7 @@
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Del campo a la comunidad: canales de comercialización agroecológica"
-              :audio="require('@/assets/componentes/audios/CF2_podcast_IIMPLEMENTACION_INSTRUMENTO_PLANIFICACION_PREDIAL_TRANSICION_AGROECOLOGICA_ESTACION_SOCIOECONOMICA_MODULO_3.mp3')"
+              :audio="require('@/assets/componentes/audios/Podcast.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-xl-auto

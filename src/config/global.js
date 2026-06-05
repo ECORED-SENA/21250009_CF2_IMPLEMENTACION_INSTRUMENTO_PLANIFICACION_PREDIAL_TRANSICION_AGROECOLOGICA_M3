@@ -148,7 +148,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/21250009_CF2_DU.pdf',
+        download: 'downloads/21250009_CF02_M3_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -163,14 +163,6 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: 'Indicadores productivos',
-      referencia:
-        'FAO. (2024). Guía para el levantamiento y registro de indicadores de género para la Transición Agroecológica en el Instrumento de Planificación Predial para la Transición Agroecológica (IPPTA). Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
-      tipo: 'Manual',
-      link:
-        'https://drive.google.com/file/d/1vVllA0GmISHUYDd9kgYQ4R7mSxjMGWY0/view?usp=drive_link',
-    },
     {
       tema: 'Plan de acompañamiento agroecológico',
       referencia:
@@ -266,7 +258,7 @@ export default {
     {
       referencia:
         'FAO, MADR, ADR y Unión Europea en Colombia. (2023). Guía de transición a la agroecología para extensionistas y promotores rurales en Colombia. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
-      link: 'https://www.fao.org/agroecology/database/detail/es/c/1711004/',
+      link: '',
     },
     {
       referencia:
@@ -323,6 +315,12 @@ export default {
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
+        {
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Profesional 06. Responsable del ecosistema virtual de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de línea de producción',
